@@ -5,7 +5,7 @@ function makeSound(key){
             wSound.play();
             break;
         case "a":
-            let aSound = new Audio("/sounds/kick-bass.mp3");
+            let aSound = new Audio("/drum/sounds/kick-bass.mp3");
             aSound.play();
             break;
         case "s":
