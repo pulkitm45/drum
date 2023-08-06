@@ -1,7 +1,7 @@
 function makeSound(key){
     switch (key) {
         case "w":
-            let wSound = new Audio("/sounds/crash.mp3");
+            let wSound = new Audio("/drum/sounds/crash.mp3");
             wSound.play();
             break;
         case "a":
@@ -9,23 +9,23 @@ function makeSound(key){
             aSound.play();
             break;
         case "s":
-            let sSound = new Audio("/sounds/snare.mp3");
+            let sSound = new Audio("/drum/sounds/snare.mp3");
             sSound.play();
             break;
         case "d":
-            let dSound = new Audio("/sounds/tom-1.mp3");
+            let dSound = new Audio("/drum/sounds/tom-1.mp3");
             dSound.play();
             break;
         case "j":
-            let jSound = new Audio("/sounds/tom-2.mp3");
+            let jSound = new Audio("/drum/sounds/tom-2.mp3");
             jSound.play();
             break;
         case "k":
-            let kSound = new Audio("/sounds/tom-3.mp3");
+            let kSound = new Audio("/drum/sounds/tom-3.mp3");
             kSound.play();
             break;
        case "l":
-            let lSound = new Audio("/sounds/tom-4.mp3");
+            let lSound = new Audio("/drum/sounds/tom-4.mp3");
             lSound.play();      
             break;
     
